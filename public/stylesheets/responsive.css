@@ -1,0 +1,263 @@
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 700px) {
+
+    /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+
+
+    /* .holder {
+        padding: 0px 10px;
+    } */
+
+
+    /*INDEX*/
+
+    header .holder {
+        background-image: none;
+        padding: 5px;
+    }
+
+    header .blog {
+        margin-bottom: 0px;
+    }
+
+    .item1 {
+        position: relative;
+        bottom: 120px;
+    }
+
+    .item1 img {
+        height: 220px;
+    }
+
+    .item4 {
+        position: relative;
+        bottom: 100px;
+    }
+
+    .item4 img {
+        height: 200px;
+    }
+
+
+
+    .holder p {
+        font-size: 15px;
+    }
+
+    .item5 {
+        display: none;
+    }
+
+    .holder h1 img {
+        display: none;
+    }
+
+    .holder h1 {
+        font-size: 30px;
+        background-image: url(/images/backgroundh1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-sizing: border-box;
+        padding: 80px;
+    }
+
+    .grid-contenedor .item1 {
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+
+    .holder .blog span {
+        font-size: 22px;
+    }
+
+
+    .holder .blog {
+        font-size: 22px;
+    }
+
+
+    .holder .eslogan {
+        display: none;
+    }
+
+    .topnav {
+        position: relative;
+        bottom: 110px;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .topnav a {
+        font-size: 14px;
+    }
+
+
+    .topnav a:hover {
+        background-color: #000000;
+    }
+
+    .grid-contenedor {
+        grid-template-areas:
+            'arribaiz arribaiz'
+            'arribadere arribadere'
+            'abajoiz abajoiz'
+            'abajoiz2 abajoiz2'
+            'abajodere abajodere';
+    }
+
+
+    main .item1 h2 {
+        font-size: 25px;
+    }
+
+    main .item1 p {
+        line-height: 150%;
+    }
+
+
+    .item2 h3 {
+        font-size: 20px;
+    }
+
+    main .item2 {
+        position: relative;
+        bottom: 100px;
+    }
+
+    main .item3 {
+        position: relative;
+        bottom: 120px;
+    }
+
+    main .item3 p,
+    main .item2 p {
+        box-sizing: border-box;
+        padding: 5px 45px;
+        line-height: 200%;
+    }
+
+
+    main .item3 h3 {
+        font-size: 20px;
+    }
+
+    main .item4 h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .item4 p {
+        display: none;
+    }
+
+    h4 {
+        font-size: 15px;
+    }
+
+    /*FIN INDEX*/
+
+    /* INICIO FOOTER*/
+
+    .holder.footer-distributed {
+        padding: 0px;
+    }
+
+
+    .footer-left h3 {
+        display: none;
+    }
+
+    .footer-left p {
+        display: none;
+    }
+
+    .footer-distributed .footer-center {
+        display: block;
+        margin-bottom: 20px;
+        text-align: center;
+        position: relative;
+        right: 110px;
+        top: 20px;
+
+    }
+
+    .footer-distributed .footer-right {
+        text-align: center;
+        box-sizing: border-box;
+        padding: 30px 20px 14px 0px;
+    }
+
+
+    .footer-icons {
+        display: none;
+    }
+
+    /* FIN FOOTER*/
+
+
+    /*INICIO NOSOTROS*/
+
+    .holder .personas {
+
+        display: inline-flex;
+        /* align-items: center; */
+        flex-direction: column;
+    }
+
+    .holder .personas .persona img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    /*FIN NOSOTROS*/
+
+
+    /*INICIO GALERIA*/
+
+    .holder .productos .producto {
+        align-items: center;
+        width: 100%;
+    }
+
+    /*FIN GALERIA*/
+
+    .holder .cursos img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .holder .cursos p {
+        display: none;
+    }
+
+    .holder .cursos button {
+        height: 40px;
+        width: 90px;
+        font-size: 10px;
+        top: 90px;
+    }
+
+    .holder .cursos h4{
+        font-size: 18px;
+    }
+
+    .contacto{
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacto form {
+        box-sizing: border-box;
+        padding: 20px;
+        width: 85%;
+    }
+
+    .contacto .datos{
+        
+        box-sizing: border-box;
+        padding: 20px;
+}
+
+}
